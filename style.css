@@ -44,3 +44,7 @@ button{
 .box>img{
     width: 55px;
 }
+.show{
+  background-color: pink;
+  mask-image: white;
+}
