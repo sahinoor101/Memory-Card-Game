@@ -51,24 +51,6 @@ function removeAll() {
   }
 }
 
-function checkTurn() {
-  let count = 0;
-  let arrBox = document.querySelectorAll(".box");
-  for (let i = 0; i < 16; i++) {
-    console.log(count);
-    if (arrBox[i].classList.contains("show")) {
-      count++;
-    }
-  }
-  if (count >= 2) {
-    console.log("false");
-    removeAll();
-    return false;
-  }
-  console.log("true");
-  return true;
-}
-
 let c = 0;
 
 function display(box) {
